@@ -6317,3 +6317,21 @@ th.hide-for-touch {
       opacity: 0.75; }
 
 /*------- COLORS -------*/
+.parfait1,
+.parfait2,
+.parfait3 {
+  padding: 1% 0; }
+
+.parfait1 {
+  background: #000; }
+
+.parfait2 {
+  background: #000; }
+
+.center-slick {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px; }
+
+div h2 {
+  color: white;
+  text-align: center; }

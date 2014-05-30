@@ -1,6 +1,29 @@
 @import "_normalize";
 @import "_foundation.min";
-@import "_slick";
+@import "../slick/slick";
 @import "_variables";
 
-.parfait1 {}
+
+.parfait1,
+.parfait2,
+.parfait3 {
+	padding: 1% 0;
+}
+
+.parfait1 {
+	background: #000;
+}
+
+.parfait2 {
+	background: #000;
+}
+
+.center-slick {
+	background: rgba(255,255,255,.2);
+	padding: 20px;
+}
+
+div h2 {
+	color: $color-secondary;
+	text-align: center;
+}
