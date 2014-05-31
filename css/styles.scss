@@ -11,15 +11,24 @@
 }
 
 .parfait1 {
-	background: #000;
+	background: $color-primary;
 }
 
 .parfait2 {
 	background: #000;
 }
 
+header {
+	height: 50%;
+
+	h1 {
+		color: $color-secondary;
+	}
+	
+}
+
 .center-slick {
-	background: rgba(255,255,255,.2);
+	background: #333;
 	padding: 20px;
 }
 
@@ -27,3 +36,17 @@ div h2 {
 	color: $color-secondary;
 	text-align: center;
 }
+
+nav {
+	.button {
+		padding-top: 2.5rem;
+		padding-bottom: 2.5625rem;
+		text-align: center;
+		width: 100%;
+	}
+
+	.button-group > li {
+		width: 20%;
+	}
+}
+
