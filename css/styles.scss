@@ -15,27 +15,30 @@
 }
 
 .parfait2 {
-	background: #000;
+	h2 {
+		color: $color-tertiary;
+		text-align: center;
+	}
 }
 
 header {
-	height: 50%;
+
 
 	h1 {
 		color: $color-secondary;
+	}
+
+	img {
+		height: 100%;
 	}
 	
 }
 
 .center-slick {
-	background: #333;
+
 	padding: 20px;
 }
 
-div h2 {
-	color: $color-secondary;
-	text-align: center;
-}
 
 nav {
 	.button {
@@ -49,4 +52,31 @@ nav {
 		width: 20%;
 	}
 }
+
+
+/*-------------------------------
+		Grid/List
+-------------------------------*/
+.large-6,
+.large-3 {
+	-moz-transition: .25s .5s;
+	-webkit-transition: .25s .5s;
+	transition: .25s .5s;
+}
+
+article a {
+	color: rgb(100,200,200);
+
+	&:hover {
+		color: rgb(255,75,75);
+	}
+}
+
+.th {
+	width: 200px;
+}
+
+
+
+
 

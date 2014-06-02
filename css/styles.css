@@ -6325,21 +6325,17 @@ th.hide-for-touch {
 .parfait1 {
   background: #e75200; }
 
-.parfait2 {
-  background: #000; }
+.parfait2 h2 {
+  color: black;
+  text-align: center; }
 
-header {
-  height: 50%; }
-  header h1 {
-    color: white; }
+header h1 {
+  color: white; }
+header img {
+  height: 100%; }
 
 .center-slick {
-  background: #333;
   padding: 20px; }
-
-div h2 {
-  color: white;
-  text-align: center; }
 
 nav .button {
   padding-top: 2.5rem;
@@ -6348,3 +6344,20 @@ nav .button {
   width: 100%; }
 nav .button-group > li {
   width: 20%; }
+
+/*-------------------------------
+		Grid/List
+-------------------------------*/
+.large-6,
+.large-3 {
+  -moz-transition: .25s .5s;
+  -webkit-transition: .25s .5s;
+  transition: .25s .5s; }
+
+article a {
+  color: #64c8c8; }
+  article a:hover {
+    color: #ff4b4b; }
+
+.th {
+  width: 200px; }
