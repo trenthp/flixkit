@@ -6317,6 +6317,14 @@ th.hide-for-touch {
       opacity: 0.75; }
 
 /*------- COLORS -------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black; }
+
 .parfait1,
 .parfait2,
 .parfait3 {
@@ -6345,6 +6353,16 @@ nav .button {
 nav .button-group > li {
   width: 20%; }
 
+button,
+.button {
+  background: #e75200; }
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  background-color: #C24500; }
+
 /*-------------------------------
 		Grid/List
 -------------------------------*/
@@ -6355,9 +6373,12 @@ nav .button-group > li {
   transition: .25s .5s; }
 
 article a {
-  color: #64c8c8; }
-  article a:hover {
-    color: #ff4b4b; }
+  color: black; }
+article a:hover {
+  color: #e75200; }
+article p {
+  font-size: .75rem; }
 
 .th {
-  width: 200px; }
+  width: 200px;
+  margin-bottom: 150px; }

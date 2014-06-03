@@ -3,6 +3,15 @@
 @import "../slick/slick";
 @import "_variables";
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $color-tertiary;
+}
+
 
 .parfait1,
 .parfait2,
@@ -54,6 +63,20 @@ nav {
 }
 
 
+button, 
+.button {
+	background: $color-primary;
+}
+
+button:hover, 
+button:focus, 
+.button:hover, 
+.button:focus {
+	background-color: #C24500;
+}
+
+
+
 /*-------------------------------
 		Grid/List
 -------------------------------*/
@@ -64,17 +87,45 @@ nav {
 	transition: .25s .5s;
 }
 
-article a {
-	color: rgb(100,200,200);
+article {
 
-	&:hover {
-		color: rgb(255,75,75);
+	a {
+		color: $color-tertiary;
+	}
+
+	a:hover {
+		color: $color-primary;
+	}
+
+	p {
+		font-size: .75rem;
 	}
 }
 
 .th {
 	width: 200px;
+	margin-bottom: 150px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
