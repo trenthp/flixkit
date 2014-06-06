@@ -431,7 +431,7 @@
             _.$list.prop('tabIndex', 0);
         }
 
-        _.setSlideClasses(0);
+        _.setSlideClasses(typeof this.currentSlide === 'number' ? this.currentSlide : 0);
 
         if (_.options.draggable === true) {
             _.$list.addClass('draggable');
@@ -777,6 +777,7 @@
         });
 
         $(window).on('load.slick.slick-' + _.instanceUid, _.setPosition);
+        $(document).on('ready.slick.slick-' + _.instanceUid, _.setPosition);
 
     };
 
@@ -922,12 +923,14 @@
 
     Slick.prototype.refresh = function() {
 
-        var _ = this;
+        var _ = this,
+            currentSlide = _.currentSlide;
 
         _.destroy();
 
         $.extend(_, _.initials);
 
+        _.currentSlide = currentSlide;
         _.init();
 
     };
@@ -1183,6 +1186,8 @@
 
             if (index > 0 && index < (_.slideCount - _.options.slidesToShow)) {
                 _.$slides.slice(index, index + _.options.slidesToShow).addClass('slick-active');
+            } else if ( allSlides.length <= _.options.slidesToShow ) {
+                allSlides.addClass('slick-active');
             } else {
                 indexOffset = _.options.infinite === true ? _.options.slidesToShow + index : index;
                 allSlides.slice(indexOffset, indexOffset + _.options.slidesToShow).addClass('slick-active');

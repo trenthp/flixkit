@@ -1,7 +1,7 @@
 @import "_normalize";
 @import "_foundation.min";
-@import "../slick/slick";
 @import "_variables";
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 h1,
 h2,
@@ -10,6 +10,7 @@ h4,
 h5,
 h6 {
 	color: $color-tertiary;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -112,23 +113,31 @@ article {
  	}
 }
 
+.large-3 h4 {
+	height: 60px;
+}
 
 
 
 
 
 
-@media screen and (min-width: 1025) {
 
-	header {
-		h1 {
-			margin-top: 220px;
-		}
+@media screen and (max-width: 1025px) {
+
+	.large-6 {
+		width: 50%;
 	}
 
 }
 
+@media screen and (max-width: 890px) {
 
+	.large-6 {
+		width: 100%;
+	}
+
+}
 
 
 
