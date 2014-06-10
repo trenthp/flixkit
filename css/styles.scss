@@ -33,6 +33,28 @@ h6 {
 	}
 }
 
+.parfait5 {
+	background: #000;
+	padding-top: 3%;
+
+	h4 {
+		color: #666;
+	}
+
+	h5 {
+		color: #999;
+	}
+
+	img {
+		width: 50%;
+		color: #555;
+	}
+
+	.large-4:last-child {
+		padding-left: 80px;
+	}
+}
+
 h2 {
 	text-align: center;
 }
@@ -40,6 +62,10 @@ h2 {
 /*-------------------------------
 		Hero Header
 -------------------------------*/
+.top-bar {
+	background: #000;
+}
+
 header {
 
 
@@ -58,12 +84,22 @@ header {
 /*-------------------------------
 		Shopping Cart
 -------------------------------*/
-
-
 [data-magellan-expedition] {
 	border-top: 3px solid #333;
 	border-bottom: 3px solid #333;
 }
+
+.unselected {
+	width: 100px;
+	height: 150px;
+	border: 2px dashed #000;
+	border-radius: 5px;
+}
+
+.sub-nav dd {
+	margin-left: 25%;
+}
+
 
 
 
@@ -71,15 +107,14 @@ header {
 		New Release Movies
 -------------------------------*/
 .center-slick {
-
 	padding: 20px;
 }
 
 
 nav {
 	.button {
-		padding-top: 2.5rem;
-		padding-bottom: 2.5625rem;
+		padding-top: 1.2rem;
+		padding-bottom: 1.2625rem;
 		text-align: center;
 		width: 100%;
 	}
@@ -140,6 +175,11 @@ article {
 
 .large-3 h4 {
 	height: 60px;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+	color: $color-primary;
 }
 
 

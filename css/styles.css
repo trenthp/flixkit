@@ -6166,12 +6166,28 @@ h6 {
   color: black;
   text-align: center; }
 
+.parfait5 {
+  background: #000;
+  padding-top: 3%; }
+  .parfait5 h4 {
+    color: #666; }
+  .parfait5 h5 {
+    color: #999; }
+  .parfait5 img {
+    width: 50%;
+    color: #555; }
+  .parfait5 .large-4:last-child {
+    padding-left: 80px; }
+
 h2 {
   text-align: center; }
 
 /*-------------------------------
 		Hero Header
 -------------------------------*/
+.top-bar {
+  background: #000; }
+
 header h1 {
   color: white; }
 header img {
@@ -6185,6 +6201,15 @@ header img {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333; }
 
+.unselected {
+  width: 100px;
+  height: 150px;
+  border: 2px dashed #000;
+  border-radius: 5px; }
+
+.sub-nav dd {
+  margin-left: 25%; }
+
 /*-------------------------------
 		New Release Movies
 -------------------------------*/
@@ -6192,8 +6217,8 @@ header img {
   padding: 20px; }
 
 nav .button {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5625rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2625rem;
   text-align: center;
   width: 100%; }
 nav .button-group > li {
@@ -6233,6 +6258,10 @@ article p {
 
 .large-3 h4 {
   height: 60px; }
+
+.slick-prev:before,
+.slick-next:before {
+  color: #e75200; }
 
 /*-------------------------------
 		Media Queries

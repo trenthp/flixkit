@@ -5,24 +5,35 @@
 	 height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
 <g id="step1">
 	
-		<rect x="91.5" y="69.5" transform="matrix(0.9253 0.3793 -0.3793 0.9253 54.5597 -38.9028)" fill="#E75200" stroke="#000000" stroke-miterlimit="10" width="69" height="99"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="62.5" y1="157.5" x2="40.333" y2="203"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="244.334" y1="157.5" x2="266.5" y2="203"/>
+		<rect x="123.5" y="88.5" transform="matrix(0.9253 0.3793 -0.3793 0.9253 64.1586 -49.6215)" fill="#E75200" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="69.001" height="99"/>
 	<g>
-		<path fill="#FFFFFF" d="M245,279c0,1.657-1.343,3-3,3H64c-1.657,0-3-1.343-3-3V160c0-1.657,1.343-3,3-3h178c1.657,0,3,1.343,3,3
-			V279z"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M245.5,278.5c0,1.65-1.35,3-3,3h-178c-1.65,0-3-1.35-3-3v-119
-			c0-1.65,1.35-3,3-3h178c1.65,0,3,1.35,3,3V278.5z"/>
+		<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="91.095" y1="178.77" x2="72.731" y2="216.465"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="241.739" y1="178.77" x2="260.103" y2="216.465"/>
+		<g>
+			<path fill="#FFFFFF" d="M242,279c0,1.657-1.343,3-3,3H93c-1.657,0-3-1.343-3-3v-98c0-1.657,1.343-3,3-3h146c1.657,0,3,1.343,3,3
+				V279z"/>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M242.5,278.5c0,1.657-1.343,3-3,3h-146
+				c-1.657,0-3-1.343-3-3v-98c0-1.657,1.343-3,3-3h146c1.657,0,3,1.343,3,3V278.5z"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" d="M93.543,177.806c-1.65-0.002-2.434,1.223-1.741,2.72l13.636,29.621c0.693,1.496,2.609,2.854,4.259,2.854
+				h118.254c1.65,0,3.432-1.41,3.96-2.973l9.833-29.179c0.528-1.562-0.39-2.875-2.04-2.877L93.543,177.806z"/>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M93.543,177.806
+				c-1.65-0.002-2.434,1.223-1.741,2.72l13.636,29.371c0.693,1.496,2.609,2.604,4.259,2.604h118.254c1.65,0,3.432-1.16,3.96-2.723
+				l9.833-29.054c0.528-1.562-0.39-2.812-2.04-2.814L93.543,177.806z"/>
+		</g>
 	</g>
+	<rect x="21.382" y="23.105" fill="none" width="263.235" height="40.85"/>
+	<text transform="matrix(1 0 0 1 21.3818 38.6865)"><tspan x="0" y="0" font-family="'Montserrat-Bold'" font-size="21">Step 1</tspan><tspan x="63.608" y="0" font-family="'Montserrat-Regular'" font-size="21">: Pick your movie.</tspan></text>
 	<g>
-		<path fill="#FFFFFF" d="M64.833,156.336c-1.65-0.002-2.433,1.223-1.741,2.72l16.981,36.972c0.692,1.497,2.609,2.973,4.259,2.973
-			h143.98c1.65,0,3.432-1.529,3.96-3.092l12.267-36.441c0.528-1.562-0.39-2.905-2.04-2.907L64.833,156.336z"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M64.833,156.336c-1.65-0.002-2.433,1.223-1.741,2.72l16.981,36.722
-			c0.692,1.497,2.609,2.723,4.259,2.723h143.98c1.65,0,3.432-1.279,3.96-2.842l12.267-36.316c0.528-1.562-0.39-2.843-2.04-2.845
-			L64.833,156.336z"/>
+		<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M32.108,55.548
+			c0,0,60.891,1.997,84.085,52.884"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="116.193" y1="108.433" x2="90.456" y2="109.51"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="116.193" y1="108.433" x2="118.137" y2="82.461"/>
 	</g>
-	<rect x="18.382" y="23.105" fill="none" width="263.235" height="40.85"/>
-	<text transform="matrix(1 0 0 1 18.3818 39.4287)"><tspan x="0" y="0" font-family="'Montserrat-Bold'" font-size="22">Step 1</tspan><tspan x="66.637" y="0" font-family="'Montserrat-Regular'" font-size="22">: Pick your movie.</tspan></text>
 </g>
 <g id="step2">
 </g>

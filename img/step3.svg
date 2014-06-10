@@ -4,61 +4,44 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px"
 	 height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
 <g id="step1">
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="60.5" y1="157.5" x2="38.334" y2="203"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="242.334" y1="157.5" x2="264.5" y2="203"/>
-	<g>
-		<path fill="#FFFFFF" d="M243,279c0,1.657-1.343,3-3,3H62c-1.657,0-3-1.343-3-3V160c0-1.657,1.343-3,3-3h178c1.657,0,3,1.343,3,3
-			V279z"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M243.5,278.5c0,1.65-1.35,3-3,3h-178c-1.65,0-3-1.35-3-3v-119
-			c0-1.65,1.35-3,3-3h178c1.65,0,3,1.35,3,3V278.5z"/>
-	</g>
-	<g>
-		<path fill="#FFFFFF" d="M62.834,156.336c-1.65-0.002-2.434,1.223-1.741,2.72l16.982,36.972c0.692,1.497,2.608,2.973,4.259,2.973
-			h143.979c1.65,0,3.432-1.529,3.96-3.092l12.267-36.441c0.528-1.562-0.39-2.905-2.04-2.907L62.834,156.336z"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M62.834,156.336c-1.65-0.002-2.434,1.223-1.741,2.72l16.982,36.722
-			c0.692,1.497,2.608,2.723,4.259,2.723h143.979c1.65,0,3.432-1.279,3.96-2.842l12.267-36.316c0.528-1.562-0.39-2.843-2.04-2.845
-			L62.834,156.336z"/>
-	</g>
-	<g>
-		<path fill="#FFFFFF" d="M243,279c0,1.657-1.343,3-3,3H62c-1.657,0-3-1.343-3-3V160c0-1.657,1.343-3,3-3h178c1.657,0,3,1.343,3,3
-			V279z"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M243.5,278.5c0,1.65-1.35,3-3,3h-178c-1.65,0-3-1.35-3-3v-119
-			c0-1.65,1.35-3,3-3h178c1.65,0,3,1.35,3,3V278.5z"/>
-	</g>
-	<g>
-		<path fill="#FFFFFF" d="M62.834,156.336c-1.65-0.002-2.434,1.223-1.741,2.72l16.982,36.972c0.692,1.497,2.608,2.973,4.259,2.973
-			h143.979c1.65,0,3.432-1.529,3.96-3.092l12.267-36.441c0.528-1.562-0.39-2.905-2.04-2.907L62.834,156.336z"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M62.834,156.336c-1.65-0.002-2.434,1.223-1.741,2.72l16.982,36.722
-			c0.692,1.497,2.608,2.723,4.259,2.723h143.979c1.65,0,3.432-1.279,3.96-2.842l12.267-36.316c0.528-1.562-0.39-2.843-2.04-2.845
-			L62.834,156.336z"/>
-	</g>
 </g>
 <g id="step2">
 </g>
 <g id="step3">
 	
-		<rect x="171.499" y="143.502" transform="matrix(1 -0.0068 0.0068 1 -1.3145 1.4127)" fill="#3ABEEF" stroke="#000000" stroke-miterlimit="10" width="69.001" height="98.999"/>
+		<rect x="164.499" y="163.501" transform="matrix(1 -0.0068 0.0068 1 -1.4514 1.3653)" fill="#3ABEEF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="69.001" height="98.999"/>
 	
-		<rect x="115.499" y="85.501" transform="matrix(0.9169 0.3992 -0.3992 0.9169 66.3652 -48.6574)" fill="#FDCE0B" stroke="#000000" stroke-miterlimit="10" width="69" height="98.999"/>
+		<rect x="141.499" y="100.501" transform="matrix(0.9169 0.3992 -0.3992 0.9169 74.5151 -57.7898)" fill="#FDCE0B" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="69" height="98.999"/>
 	
-		<rect x="65.499" y="149.5" transform="matrix(1 0.0029 -0.0029 1 0.5834 -0.2921)" fill="#E75200" stroke="#000000" stroke-miterlimit="10" width="69.001" height="99"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="60.5" y1="157.5" x2="38.334" y2="203"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="242.334" y1="157.5" x2="264.5" y2="203"/>
+		<rect x="90.499" y="163.499" transform="matrix(1 0.0029 -0.0029 1 0.6245 -0.3653)" fill="#E75200" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="69.001" height="99"/>
+	<rect x="8.365" y="23.105" fill="none" width="279.67" height="40.85"/>
+	<text transform="matrix(1 0 0 1 8.3652 38.6865)"><tspan x="0" y="0" font-family="'Montserrat-Bold'" font-size="21">Step 3</tspan><tspan x="67.556" y="0" font-family="'Montserrat-Regular'" font-size="21">: Pick your popcorn.</tspan></text>
 	<g>
-		<path fill="#FFFFFF" d="M243,279c0,1.657-1.343,3-3,3H62c-1.657,0-3-1.343-3-3V160c0-1.657,1.343-3,3-3h178c1.657,0,3,1.343,3,3
-			V279z"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M243.5,278.5c0,1.65-1.35,3-3,3h-178c-1.65,0-3-1.35-3-3v-119
-			c0-1.65,1.35-3,3-3h178c1.65,0,3,1.35,3,3V278.5z"/>
+		<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="84.096" y1="178.77" x2="65.73" y2="216.465"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="234.739" y1="178.77" x2="253.103" y2="216.465"/>
+		<g>
+			<path fill="#FFFFFF" d="M235,279c0,1.657-1.343,3-3,3H86c-1.657,0-3-1.343-3-3v-98c0-1.657,1.343-3,3-3h146c1.657,0,3,1.343,3,3
+				V279z"/>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M235.5,278.5c0,1.657-1.343,3-3,3h-146
+				c-1.657,0-3-1.343-3-3v-98c0-1.657,1.343-3,3-3h146c1.657,0,3,1.343,3,3V278.5z"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" d="M86.543,177.806c-1.65-0.002-2.434,1.223-1.741,2.72l13.637,29.621c0.692,1.496,2.608,2.854,4.259,2.854
+				h118.255c1.65,0,3.432-1.41,3.96-2.973l9.833-29.179c0.528-1.562-0.39-2.875-2.04-2.877L86.543,177.806z"/>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M86.543,177.806
+				c-1.65-0.002-2.434,1.223-1.741,2.72l13.637,29.371c0.692,1.496,2.608,2.604,4.259,2.604h118.255c1.65,0,3.432-1.16,3.96-2.723
+				l9.833-29.054c0.528-1.562-0.39-2.812-2.04-2.814L86.543,177.806z"/>
+		</g>
 	</g>
 	<g>
-		<path fill="#FFFFFF" d="M62.834,156.336c-1.65-0.002-2.434,1.223-1.741,2.72l16.982,36.972c0.692,1.497,2.608,2.973,4.259,2.973
-			h143.979c1.65,0,3.432-1.529,3.96-3.092l12.267-36.441c0.528-1.562-0.39-2.905-2.04-2.907L62.834,156.336z"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M62.834,156.336c-1.65-0.002-2.434,1.223-1.741,2.72l16.982,36.722
-			c0.692,1.497,2.608,2.723,4.259,2.723h143.979c1.65,0,3.432-1.279,3.96-2.842l12.267-36.316c0.528-1.562-0.39-2.843-2.04-2.845
-			L62.834,156.336z"/>
+		<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M32.107,63.548
+			c0,0,60.892,1.997,84.086,52.884"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="116.193" y1="116.433" x2="90.455" y2="117.51"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="116.193" y1="116.433" x2="118.137" y2="90.461"/>
 	</g>
-	<rect x="12.285" y="23.105" fill="none" width="278.764" height="40.85"/>
-	<text transform="matrix(1 0 0 1 12.2852 38.6865)"><tspan x="0" y="0" font-family="'Montserrat-Bold'" font-size="21">Step 3</tspan><tspan x="67.556" y="0" font-family="'Montserrat-Regular'" font-size="21">: Pick your popcorn.</tspan></text>
 </g>
 <g id="step4">
 </g>
