@@ -49,6 +49,8 @@ $(document).ready(function(){
 	});
 
 
+	$('.gallery p').hide();
+
 	//GRID VIEW
 	$('#grid-view').on('click', function(){
 
