@@ -13,7 +13,9 @@ h6 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-
+/*-------------------------------
+		Global
+-------------------------------*/
 .parfait1,
 .parfait2,
 .parfait3 {
@@ -31,6 +33,13 @@ h6 {
 	}
 }
 
+h2 {
+	text-align: center;
+}
+
+/*-------------------------------
+		Hero Header
+-------------------------------*/
 header {
 
 
@@ -45,6 +54,22 @@ header {
 	
 }
 
+
+/*-------------------------------
+		Shopping Cart
+-------------------------------*/
+
+
+[data-magellan-expedition] {
+	border-top: 3px solid #333;
+	border-bottom: 3px solid #333;
+}
+
+
+
+/*-------------------------------
+		New Release Movies
+-------------------------------*/
 .center-slick {
 
 	padding: 20px;
@@ -119,10 +144,9 @@ article {
 
 
 
-
-
-
-
+/*-------------------------------
+		Media Queries
+-------------------------------*/
 @media screen and (max-width: 1025px) {
 
 	.large-6 {
