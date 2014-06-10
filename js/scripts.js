@@ -71,7 +71,28 @@ $('.center-slick').slick({
 
 
 	//SHOPPING CART
-	
+	$('.gallery div a').on('click', function() {
+
+		event.preventDefault();
+		$('#movie').addClass('selected-movie');
+
+	});
+
+	$('.parfait2 a').on('click', function() {
+
+		event.preventDefault();
+		$('#movie').addClass('selected-movie');
+
+	});
+
+	$('.parfait2 a').on('click', function() {
+
+		event.preventDefault();
+		$('#candy').addClass('selected-candy');
+
+	});
+
+
 
 });
 

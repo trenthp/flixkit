@@ -96,6 +96,22 @@ header {
 	border-radius: 5px;
 }
 
+.selected-movie {
+	background: $color-primary;
+}
+
+.selected-candy {
+	background: #3abeef;
+}
+
+.selected-popcorn {
+	background: #fdce0b;
+}
+
+.selected-extra {
+	background: $color-secondary;
+}
+
 .sub-nav dd {
 	margin-left: 25%;
 }

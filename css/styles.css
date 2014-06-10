@@ -6142,6 +6142,7 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 /*------- COLORS -------*/
+/*------- FONTS -------*/
 h1,
 h2,
 h3,
@@ -6206,6 +6207,18 @@ header img {
   height: 150px;
   border: 2px dashed #000;
   border-radius: 5px; }
+
+.selected-movie {
+  background: #e75200; }
+
+.selected-candy {
+  background: #3abeef; }
+
+.selected-popcorn {
+  background: #fdce0b; }
+
+.selected-extra {
+  background: white; }
 
 .sub-nav dd {
   margin-left: 25%; }
