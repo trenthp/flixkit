@@ -71,9 +71,7 @@ $('.center-slick').slick({
 
 
 	//SHOPPING CART
-$('.navbar-wrapper').stickUp();
-	
-	$('.th').on('click', function() {
+	$('.gallery div a').on('click', function() {
 
 		event.preventDefault();
 		$('#movie').addClass('selected-movie');

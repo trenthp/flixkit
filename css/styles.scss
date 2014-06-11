@@ -1,12 +1,7 @@
 @import "_normalize";
 @import "_foundation.min";
-@import "_demo";
 @import "_variables";
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-body {
-	background: #fff;
-}
 
 h1,
 h2,
@@ -92,15 +87,6 @@ header {
 [data-magellan-expedition] {
 	border-top: 3px solid #333;
 	border-bottom: 3px solid #333;
-	text-align: center;
-	padding: 2%;
-}
-
-.subMenu {
-	border-top: 3px solid #333;
-	border-bottom: 3px solid #333;
-	text-align: center;
-	padding: 2%;
 }
 
 .unselected {
@@ -108,7 +94,6 @@ header {
 	height: 150px;
 	border: 2px dashed #000;
 	border-radius: 5px;
-	margin-left: 25%;
 }
 
 .selected-movie {
@@ -127,7 +112,9 @@ header {
 	background: $color-secondary;
 }
 
-
+.sub-nav dd {
+	margin-left: 25%;
+}
 
 
 
