@@ -60,22 +60,25 @@
         <img src="img/step4.svg" alt="">
       </div>
     </div>
-    <!-- Instructions Start -->
+    <!-- Instructions End -->
 
     <div data-magellan-expedition="fixed">
       <div class="row">
         <dl class="sub-nav">
-          <div class="columns large-3">
-            <dd><h6>Movie</h6><div id="movie" class="unselected"></div></dd>
+          <div class="columns large-2">
+            <dd data-magellan-arrival="movie"><a href="#movie"><h6>Movie</h6><div id="movie" class="unselected"><img src="img/plus.svg" alt=""></div></a></dd>
           </div>
-          <div class="columns large-3">
-            <dd><h6>Candy</h6><div id="candy" class="unselected"></div></dd>
+          <div class="columns large-2">
+            <dd data-magellan-arrival="candy"><a href="#candy"><h6>Candy</h6><div id="candy" class="unselected"><img src="img/plus.svg" alt=""></div></a></dd>
           </div>
-          <div class="columns large-3">
-            <dd><h6>Popcorn</h6><div id="popcorn" class="unselected"></div></dd>
+          <div class="columns large-2">
+            <dd data-magellan-arrival="popcorn"><a href="#popcorn"><h6>Popcorn</h6><div id="popcorn" class="unselected"><img src="img/plus.svg" alt=""></div></a></dd>
           </div>
-          <div class="columns large-3">
-            <dd><h6>Extra</h6><div id="extra" class="unselected"></div></dd>
+          <div class="columns large-2">
+            <dd data-magellan-arrival="extra"><a href="#extra"><h6>Extra</h6><div id="extra" class="unselected"><img src="img/plus.svg" alt=""></div></a></dd>
+          </div>
+          <div class="columns large-2">
+            <dd><a href="checkout.html"><h6>Checkout</h6><div id="checkout"><img src="img/cart.svg" alt=""></div></a></dd>
           </div>
         </dl>
       </div>
@@ -85,10 +88,10 @@
 
 <!-- New Releases Start -->
     <div class="parfait2">
-
+      <a name="movie"></a>
       <div class="row">
         <div class="columns large-12">
-          <h2>New Releases</h2>
+          <h2 data-magellan-destination="movie">New Releases</h2>
         </div>
       </div>
       <div class="row">
@@ -307,10 +310,27 @@
 
 
 <!-- Candy Start -->
-    <div class="parfait6">
+    <div class="parfait5">
+      <a name="candy"></a>
       <div class="row">
         <div class="columns large-12">
-          <h1>Candy</h1>
+          <h1 data-magellan-destination="candy">Candy</h1>
+          <div class="columns large-3">
+            <h4>Regular</h4>
+            <img src="img/sweets.png" alt="" class="regular">
+          </div>
+          <div class="columns large-3">
+            <h4>Hard</h4>
+            <img src="img/sweets.png" alt="" class="hard">
+          </div>
+          <div class="columns large-3">
+            <h4>Gummie</h4>
+            <img src="img/sweets.png" alt="" class="gummie">
+          </div>
+          <div class="columns large-3">
+            <h4>Sour</h4>
+            <img src="img/sweets.png" alt="" class="sour">
+          </div>
         </div>
       </div>
     </div>
@@ -318,19 +338,53 @@
 
 <!-- Popcorn Start -->
     <div class="parfait6">
+      <a name="popcorn"></a>
       <div class="row">
         <div class="columns large-12">
-          <h1>Popcorn</h1>
+          <h1 data-magellan-destination="popcorn">Popcorn</h1>
+          <div class="columns large-3">
+            <h4>Regular</h4>
+            <img src="img/popcorn.png" alt="" class="regularpop">
+          </div>
+          <div class="columns large-3">
+            <h4>Chocolate</h4>
+            <img src="img/popcorn.png" alt="" class="hard">
+          </div>
+          <div class="columns large-3">
+            <h4>Caramel</h4>
+            <img src="img/popcorn.png" alt="" class="gummie">
+          </div>
+          <div class="columns large-3">
+            <h4>Peanut Butter</h4>
+            <img src="img/popcorn.png" alt="" class="sour">
+          </div>
         </div>
       </div>
     </div>
 <!-- Popcorn End -->
 
 <!-- Extras Start -->
-    <div class="parfait6">
+    <div class="parfait7">
+      <a name="extra"></a>
       <div class="row">
         <div class="columns large-12">
-          <h1>Extras</h1>
+          <h1 data-magellan-destination="extra">Extra</h1>
+          <div class="columns large-3">
+            <h4>Batman Snuggie</h4>
+            <img src="img/batman.jpg" alt="" class="batman">
+          </div>
+          <div class="columns large-3">
+            <h4>Wonder Woman Snuggie</h4>
+            <img src="img/wonder.jpg" alt="">
+          </div>
+          <div class="columns large-3">
+            <h4>Mickey Snuggie</h4>
+            <img src="img/mickey.jpg" alt="">
+          </div>
+          <div class="columns large-3">
+            <h4>Harry Potter Snuggie</h4>
+            <img src="img/harry.jpg" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -338,7 +392,7 @@
 
 
 <!-- Footer Start -->
-    <div class="parfait5">
+    <div class="parfait8">
       <div class="row">
         <div class="columns large-4">
           <h4>Flix Kit</h4>

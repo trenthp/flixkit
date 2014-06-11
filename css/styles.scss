@@ -16,10 +16,16 @@ h6 {
 /*-------------------------------
 		Global
 -------------------------------*/
+.large-2 {
+	width: 20%;
+}
+
 .parfait1,
 .parfait2,
-.parfait3 {
+.parfait3,
+.parfait4 {
 	padding: 1% 0;
+
 }
 
 .parfait1 {
@@ -33,7 +39,13 @@ h6 {
 	}
 }
 
-.parfait5 {
+.parfait5,
+.parfait6,
+.parfait7 {
+	padding: 5% 0;
+}
+
+.parfait8 {
 	background: #000;
 	padding-top: 3%;
 
@@ -84,6 +96,22 @@ header {
 /*-------------------------------
 		Shopping Cart
 -------------------------------*/
+.sub-nav dt.active a:hover, 
+.sub-nav dd.active a:hover, 
+.sub-nav li.active a:hover,
+.sub-nav dt.active a, 
+.sub-nav dd.active a, 
+.sub-nav li.active a {
+	background: none;
+	padding: 0;
+}
+
+.sub-nav dt a, 
+.sub-nav dd a, 
+.sub-nav li a {
+	padding: 0;
+}
+
 [data-magellan-expedition] {
 	border-top: 3px solid #333;
 	border-bottom: 3px solid #333;
@@ -94,6 +122,12 @@ header {
 	height: 150px;
 	border: 2px dashed #000;
 	border-radius: 5px;
+
+	img {
+		margin-top: 50%;
+		width: 50%;
+		margin-left: 25%;
+	}
 }
 
 .selected-movie {
@@ -113,7 +147,11 @@ header {
 }
 
 .sub-nav dd {
-	margin-left: 25%;
+	margin-left: 20%;
+}
+
+#checkout img {
+	margin-top: 15%;
 }
 
 
@@ -197,6 +235,71 @@ article {
 .slick-next:before {
 	color: $color-primary;
 }
+
+
+/*-------------------------------
+		Candy
+-------------------------------*/
+.parfait5 {
+	background: $color-primary;
+
+	h1 {
+		color: $color-secondary;
+	}
+
+	h4 {
+		color: $color-secondary;
+	}
+}
+
+.regular {
+	border: 5px solid $color-secondary;
+}
+
+.hard {
+	border: 5px solid #3abeef;
+}
+
+.gummie {
+	border: 5px solid #fdce0b;
+}
+
+.sour {
+	border: 5px solid $color-tertiary;
+}
+
+
+
+/*-------------------------------
+		Popcorn
+-------------------------------*/
+.regularpop {
+	border: 5px solid $color-primary;
+}
+
+
+
+
+/*-------------------------------
+		Extra
+-------------------------------*/
+.parfait7 {
+	background: $color-primary;
+
+	h1 {
+		color: $color-secondary;
+	}
+
+	h4 {
+		color: $color-secondary;
+	}
+}
+
+.batman {
+	height: 213px;
+}
+
+
 
 
 

@@ -70,27 +70,39 @@ $('.center-slick').slick({
 	});
 
 
+	$('.gallery a').on('click', function() {
+		event.preventDefault();
+	});
+
+	$('.parfait2 a').on('click', function() {
+		event.preventDefault();
+	});
+
+	$('.parfait3 a').on('click', function() {
+		event.preventDefault();
+	});
+
 	//SHOPPING CART
-	$('.gallery div a').on('click', function() {
+	//$('.gallery div a').on('click', function() {
 
-		event.preventDefault();
-		$('#movie').addClass('selected-movie');
+		//event.preventDefault();
+		//$('#movie').addClass('selected-movie');
 
-	});
+	//
 
-	$('.parfait2 a').on('click', function() {
+	//$('.parfait2 a').on('click', function() {
 
-		event.preventDefault();
-		$('#movie').addClass('selected-movie');
+		//event.preventDefault();
+		//$('#movie').addClass('selected-movie');
 
-	});
+	//});
 
-	$('.parfait2 a').on('click', function() {
+	//$('.parfait2 a').on('click', function() {
 
-		event.preventDefault();
-		$('#candy').addClass('selected-candy');
+		//event.preventDefault();
+		//$('#candy').addClass('selected-candy');
 
-	});
+	//});
 
 
 

@@ -6155,9 +6155,13 @@ h6 {
 /*-------------------------------
 		Global
 -------------------------------*/
+.large-2 {
+  width: 20%; }
+
 .parfait1,
 .parfait2,
-.parfait3 {
+.parfait3,
+.parfait4 {
   padding: 1% 0; }
 
 .parfait1 {
@@ -6167,17 +6171,22 @@ h6 {
   color: black;
   text-align: center; }
 
-.parfait5 {
+.parfait5,
+.parfait6,
+.parfait7 {
+  padding: 5% 0; }
+
+.parfait8 {
   background: #000;
   padding-top: 3%; }
-  .parfait5 h4 {
+  .parfait8 h4 {
     color: #666; }
-  .parfait5 h5 {
+  .parfait8 h5 {
     color: #999; }
-  .parfait5 img {
+  .parfait8 img {
     width: 50%;
     color: #555; }
-  .parfait5 .large-4:last-child {
+  .parfait8 .large-4:last-child {
     padding-left: 80px; }
 
 h2 {
@@ -6198,6 +6207,20 @@ header img {
 /*-------------------------------
 		Shopping Cart
 -------------------------------*/
+.sub-nav dt.active a:hover,
+.sub-nav dd.active a:hover,
+.sub-nav li.active a:hover,
+.sub-nav dt.active a,
+.sub-nav dd.active a,
+.sub-nav li.active a {
+  background: none;
+  padding: 0; }
+
+.sub-nav dt a,
+.sub-nav dd a,
+.sub-nav li a {
+  padding: 0; }
+
 [data-magellan-expedition] {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333; }
@@ -6207,6 +6230,10 @@ header img {
   height: 150px;
   border: 2px dashed #000;
   border-radius: 5px; }
+  .unselected img {
+    margin-top: 50%;
+    width: 50%;
+    margin-left: 25%; }
 
 .selected-movie {
   background: #e75200; }
@@ -6221,7 +6248,10 @@ header img {
   background: white; }
 
 .sub-nav dd {
-  margin-left: 25%; }
+  margin-left: 20%; }
+
+#checkout img {
+  margin-top: 15%; }
 
 /*-------------------------------
 		New Release Movies
@@ -6275,6 +6305,47 @@ article p {
 .slick-prev:before,
 .slick-next:before {
   color: #e75200; }
+
+/*-------------------------------
+		Candy
+-------------------------------*/
+.parfait5 {
+  background: #e75200; }
+  .parfait5 h1 {
+    color: white; }
+  .parfait5 h4 {
+    color: white; }
+
+.regular {
+  border: 5px solid white; }
+
+.hard {
+  border: 5px solid #3abeef; }
+
+.gummie {
+  border: 5px solid #fdce0b; }
+
+.sour {
+  border: 5px solid black; }
+
+/*-------------------------------
+		Popcorn
+-------------------------------*/
+.regularpop {
+  border: 5px solid #e75200; }
+
+/*-------------------------------
+		Extra
+-------------------------------*/
+.parfait7 {
+  background: #e75200; }
+  .parfait7 h1 {
+    color: white; }
+  .parfait7 h4 {
+    color: white; }
+
+.batman {
+  height: 213px; }
 
 /*-------------------------------
 		Media Queries
