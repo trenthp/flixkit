@@ -322,7 +322,35 @@ article {
 
 }
 
+/*-------------------------------
+		Checkout Page
+-------------------------------*/
+.wrapper {
+	height: 100%;
 
+	.parfait1 {
+		height: 74%;
+
+		h3 {
+			color: $color-secondary;
+		}
+	}
+
+	header {
+		img {
+			height: inherit;
+		}
+
+		a {
+			color: #3abeef;
+		}
+		a:hover {
+			color: #fdce0b;
+		}
+
+
+	}
+}
 
 
 

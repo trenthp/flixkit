@@ -6356,3 +6356,18 @@ article p {
 @media screen and (max-width: 890px) {
   .large-6 {
     width: 100%; } }
+/*-------------------------------
+		Checkout Page
+-------------------------------*/
+.wrapper {
+  height: 100%; }
+  .wrapper .parfait1 {
+    height: 74%; }
+    .wrapper .parfait1 h3 {
+      color: white; }
+  .wrapper header img {
+    height: inherit; }
+  .wrapper header a {
+    color: #3abeef; }
+  .wrapper header a:hover {
+    color: #fdce0b; }
